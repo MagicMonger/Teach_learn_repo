@@ -62,3 +62,9 @@ V 1.0
 
 V 1.01
 - Для поиска лучшей модели убрана из поиска Логистическая регрессия.
+
+V 1.02
+- Изменены гиперпараметры следующих моделей:
+
+- KNeighborsClassifier(n_neighbors=range(2, 9));
+- DecisionTreeClassifier(max_depth=range(3, 8), max_features=range(2, 5));
